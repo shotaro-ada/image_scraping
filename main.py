@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 url = 'https://www.photo-ac.com/main/search?q=%E7%8C%AB&pp=140&qid=&creator=&ngcreator=&nq=&srt=dlrank&orientation=all&sizesec=all&color=all&model_count=-1&age=all&mdlrlrsec=all&prprlrsec=all'
-download_dir = '/home/sonicdeath9/works/python/getImageFromWeb/pics/'
+download_dir = './pics/'
 extension = ('.jpeg', '.jpg')
 
 
